@@ -30,6 +30,13 @@ At any time use ```-h``` or ```--help``` to get more help for a command.
 
 ```./helium-wallet create basic --network testnet``` 
 
+#### Create a wallet in a non-interactive way
+
+```
+export HELIUM_WALLET_PASSWORD=MyPass
+helium-wallet create basic --network testnet
+```
+
 ### View wallet balance and public key
 ```./helium-wallet info``` view public key and TNT balance. You’ll need this public key address to obtain TNT needed for staking. 
 
